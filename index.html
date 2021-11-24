@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  
+	<div class="container-fluid  p-3 bg-dark text-white">
+
+		<p class="h1"> heading 1 <small>paragraph</small></p>
+		<p class="h2"> heading 2 <small><mark>paragraph</mark></small></p>
+		<p class="display-1"><abbr title="this is display 1 paragraph">paragraph</abbr></p>
+		<p> this paragraph</p>
+	</div>
+	<div class="container-fluid  p-3 bg-primary text-white my-0">
+
+		 <h1>Description Lists</h1>    
+			<p>The dl element indicates a description list:</p>
+			  <dl>
+				<dt>Coffee</dt>
+				<dd>- black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>- white cold drink</dd>
+			  </dl>
+		<h2>keybord input</h2>
+		<kbd>ctrl+p</kbd>
+
+	</div>
+	<div class="container-fluid px-0 table-responsive-sm">
+		<div class="alert alert-info alert-dismissible m-5">
+			<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+			<strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+		</div>
+		
+		<table class="table table-bordered table-striped table-hover">
+			<tr class="table-success">
+				<th>Name</th>
+				<th>Class</th>
+				<th>Roll</th>
+				<th>action</th>
+				<th>Roll</th>
+				<th>Roll</th>
+				<th>Roll</th>
+				<th>Roll</th>
+				<th>Roll</th>
+				<th>Roll</th>
+				<th>Roll</th>
+				<th>Roll</th>
+			</tr>
+			<tr>
+				<td>Biswajit</td>
+				<td>Btech</td>
+				<td>101</td>
+				<td>
+					<div class="btn-group-vertical btn-group-sm">
+						<button class ="btn btn-primary">edit</button>
+						<button class ="btn btn-warning">delete</button>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Asit</td>
+				<td>deploma</td>
+				<td>100</td>
+				<td>
+					<div class="btn-group btn-group-sm">
+						<button class ="btn btn-primary">edit</button>
+						<div class="btn-group btn-group-sm">
+						  <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">delete</button>
+						  <ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Tablet</a></li>
+							<li><a class="dropdown-item" href="#">Smartphone</a></li>
+						  </ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>ram</td>
+				<td>V</td>
+				<td>102</td>
+				<td>
+					<div class="btn-group">
+						<button class ="btn btn-sm btn-primary">edit</button>
+						<button class ="btn btn-sm btn-warning">delete</button>
+					</div>
+				</td>
+			</tr>		
+		</table>
+		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card card-dismissible">
+				
+					<div class="card-header bg-primary">card header<button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>
+					<div class="card-body">
+						<h1>card body</h1>
+						<p class="">this is paragrapg<p>
+					
+					
+					</div>
+					<div class="card-footer bg-success">card footer</div>
+					
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-header bg-primary">card header</div>
+
+					<div class="card-body"> card body</div>
+					<div class="card-footer bg-success">card footer</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 offset-lg-4 offset-sm-1 bg-warning">
+				this is col-sm-4 paragrapg
+			</div>
+			<div class="col-sm-4 offset-lg-4 offset-sm-1 bg-success"> this is bg success div</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
